@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DUCjAw" name="NIEMO_PLUGIN" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" displaySplashScreen="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn">
+  <MAINGROUP id="nBz4eV" name="NIEMO_PLUGIN">
+    <GROUP id="{2F08841B-3D92-5502-6F1F-BD2DE65ED7BE}" name="Source">
+      <GROUP id="{0E6243AB-93EB-DCF3-18BE-966367E88654}" name="Utils">
+        <FILE id="xgrxif" name="MathUtils.h" compile="0" resource="0" file="Source/MathUtils.h"/>
+        <FILE id="WI13PH" name="Utils.h" compile="0" resource="0" file="Source/Utils.h"/>
+      </GROUP>
+      <GROUP id="{5FDC9504-670A-E92D-4E17-C1C08B95F7A1}" name="UI">
+        <FILE id="mWhwvJ" name="ADSREditor.h" compile="0" resource="0" file="Source/ADSREditor.h"/>
+        <FILE id="Cnqjz4" name="AppTheme.h" compile="0" resource="0" file="Source/AppTheme.h"
+              xcodeResource="1"/>
+        <FILE id="jv7rIR" name="GUIHeader.cpp" compile="1" resource="0" file="Source/GUIHeader.cpp"/>
+        <FILE id="iRceGN" name="GUIHeader.h" compile="0" resource="0" file="Source/GUIHeader.h"
+              xcodeResource="1"/>
+        <FILE id="eP31oP" name="LabeledSlider.h" compile="0" resource="0" file="Source/LabeledSlider.h"/>
+        <FILE id="Rn2ejX" name="StiffStringEditor.cpp" compile="1" resource="0"
+              file="Source/StiffStringEditor.cpp"/>
+        <FILE id="zrb1x7" name="StiffStringEditor.h" compile="0" resource="0"
+              file="Source/StiffStringEditor.h"/>
+      </GROUP>
+      <GROUP id="{CE4E9DCA-34F5-204B-03F7-2EC007B3EF74}" name="DSP">
+        <FILE id="Uz664h" name="ExcitationConnection.cpp" compile="1" resource="0"
+              file="Source/ExcitationConnection.cpp"/>
+        <FILE id="rU2t41" name="ExcitationConnection.h" compile="0" resource="0"
+              file="Source/ExcitationConnection.h"/>
+        <FILE id="dOGBPJ" name="ADSREnvelope.h" compile="0" resource="0" file="Source/ADSREnvelope.h"/>
+        <FILE id="SnVOhv" name="BiquadLowpass.h" compile="0" resource="0" file="Source/BiquadLowpass.h"/>
+        <FILE id="EKK0rH" name="DynamicStiffString.cpp" compile="1" resource="0"
+              file="Source/DynamicStiffString.cpp"/>
+        <FILE id="ULYJls" name="DynamicStiffString.h" compile="0" resource="0"
+              file="Source/DynamicStiffString.h"/>
+        <FILE id="hxFiNt" name="IdealBar.h" compile="0" resource="0" file="Source/IdealBar.h"/>
+        <FILE id="SuA5AQ" name="ETC.h" compile="0" resource="0" file="Source/ETC.h"/>
+        <FILE id="qUtO4M" name="Scheme.h" compile="0" resource="0" file="Source/Scheme.h"/>
+        <FILE id="igqJmz" name="SchemeConnection.cpp" compile="1" resource="0"
+              file="Source/SchemeConnection.cpp"/>
+        <FILE id="I7AHC6" name="SchemeConnection.h" compile="0" resource="0"
+              file="Source/SchemeConnection.h"/>
+        <FILE id="QDIMdL" name="SchemeStack.cpp" compile="1" resource="0" file="Source/SchemeStack.cpp"/>
+        <FILE id="a6wQvo" name="SchemeStack.h" compile="0" resource="0" file="Source/SchemeStack.h"/>
+        <FILE id="Zczx3f" name="SimpleString.cpp" compile="1" resource="0"
+              file="Source/SimpleString.cpp"/>
+        <FILE id="BRHmYE" name="SimpleString.h" compile="0" resource="0" file="Source/SimpleString.h"/>
+        <FILE id="jmfVDZ" name="Wave1DOscillator.cpp" compile="0" resource="0"
+              file="Source/Wave1DOscillator.cpp"/>
+        <FILE id="oYix5f" name="Wave1DOscillator.h" compile="0" resource="0"
+              file="Source/Wave1DOscillator.h"/>
+      </GROUP>
+      <FILE id="WlfraW" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="kg6zHh" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="beX3ZO" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="PgUVRw" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NIEMO_PLUGIN" headerPath="/Users/loewe/NIEMO/Artefact1/NIEMO_PLUGIN/libraries/eigen"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NIEMO_PLUGIN" headerPath="/Users/loewe/NIEMO/Artefact1/NIEMO_PLUGIN/libraries/eigen"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
